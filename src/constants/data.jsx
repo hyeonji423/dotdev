@@ -21,7 +21,7 @@ import img6 from "../assets/features-img/features6.gif";
 
 
 export const navItems = [
-  { label: "Home", to: "/home" },
+  { label: "Home", to: "/dotdev" },
   { label: "Features", to: "/features" },
   // { label: 'Workflow', to: '/workflow' },
   // { label: 'Pricing', to: 'pricing' },
