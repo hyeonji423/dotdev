@@ -19,11 +19,16 @@ import img4 from "../assets/features-img/features4.gif";
 import img5 from "../assets/features-img/features5.gif";
 import img6 from "../assets/features-img/features6.gif";
 
+import work1 from "../assets/workflow-img/workflow1.gif"
+import work2 from "../assets/workflow-img/workflow2.gif"
+import work3 from "../assets/workflow-img/workflow3.gif"
+
+
 
 export const navItems = [
   { label: "Home", to: "/dotdev" },
   { label: "Features", to: "/features" },
-  // { label: 'Workflow', to: '/workflow' },
+  { label: 'Workflow', to: '/workflow' },
   // { label: 'Pricing', to: 'pricing' },
   // { label: 'Testimonials', to: 'testimonials' },
 ];
@@ -119,21 +124,25 @@ export const features = [
 
 export const checklistItems = [
   {
+    image: work1,
     title: "Code merge made easy",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
+    image: work2,
     title: "Review code without worry",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
+    image: work3,
     title: "AI Assistance to reduce time",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
   {
+    image: work1,
     title: "Share work in minutes",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
